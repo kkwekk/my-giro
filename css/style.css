@@ -467,7 +467,7 @@ body {
     background: #ffa019;
     font: bold 10px Segoe UI;
     margin-bottom: 6px;
-    color: #f0f0f0;
+     color: #f0f0f0;
 }
 .our-consultants-item-button:hover {
     transition: 0.1s;
@@ -598,40 +598,311 @@ body {
     max-width: 158px;
     min-width: 135px;
 }
+@media (max-width: 1160px) {
+    .container {
+        margin: auto;
+        max-width: 937px;
+    }
+    .menu-text {
+        font: bold 25px Segoe UI;
+    }
+    .menu-item-text {
+        font: 12px Segoe UI;
+    }
+    .main {
+        padding-top: 15%;
+        padding-bottom: 35%;
+    }
+    .our-advantages-big {
+        margin-right: 40px;
+    }
+    .our-advantages-cons {
+        margin-right: 40px;
+    }
+    .our-advantages-deli {
+        margin-right: 40px;
+    }
+    .our-advantages-qual {
+        margin-right: 40px;
+    }
+    .about-us-bottom-item {
+        width: 180px;
+    }
+    .catalog-goods-menu {
+        flex-wrap: wrap;
+        width: 75%;
+        height: 75%;
+    }
+    .catalog-goods-menu-items {
+        margin-bottom: 10px;
+    }
+    .our-consultants-items {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .brands {
+        height: 250px;
+    }
+    .brands-menu {
+        flex-wrap: wrap;
+    }
+    .usefull-information-menu {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text-1 {
+        margin-right: 100px;
+    }
+    .features-of-hoverboards-menu-item {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 965px) {
+    .container {
+        margin: auto;
+        max-width: 760px;
+    }
+    .menu-text {
+        font: bold 25px Segoe UI;
+    }
+    .menu-item-text {
+        margin-left: 25px;
+        font: 12px Segoe UI;
+    }
+    .main {
+        padding-top: 10%;
+        padding-bottom: 35%;
+    }
+    .our-advantages-big {
+        margin-right: 20px;
+    }
+    .our-advantages-cons {
+        margin-right: 20px;
+    }
+    .our-advantages-deli {
+        margin-right: 20px;
+    }
+    .our-advantages-qual {
+        margin-right: 20px;
+    }
+    .about-us-bottom-item {
+        width: 140px;
+    }
+    .our-advantages-menu {
+        flex-wrap: wrap;
+        max-width: 20%;
+    }
+    .about-us-bottom-text {
+        font: normal 16px Segoe UI;
+        width: 250px;
+    }
+    .about-us-bottom-item {
+        width: 150px;
+    }
+    .about-us-bottom-link {
+        width: 150px;
+    }
+    .catalog-goods-menu {
+        flex-wrap: wrap;
+        width: 75%;
+        height: 75%;
+    }
+    .catalog-goods-menu-items {
+        margin-bottom: 10px;
+    }
+    .our-consultants-menu {
+        flex-wrap: wrap;
+    }
+    .our-consultants-items {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .brands {
+        height: 250px;
+    }
+    .brands-menu {
+        flex-wrap: wrap;
+    }
+    .usefull-information-menu {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text-1 {
+        margin-right: 50px;
+    }
+    .features-of-hoverboards-menu-item {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 826px) {
+    .container {
+        margin: auto;
+        max-width: 690px;
+    }
+    .menu-text {
+        font: bold 20px Segoe UI;
+    }
+    .menu-item-text {
+        margin-left: 20px;
+        font: 10px Segoe UI;
+    }
+    .main {
+        padding-top: 8%;
+        padding-bottom: 35%;
+    }
+    .our-advantages-big {
+        margin-right: 10px;
+    }
+    .our-advantages-cons {
+        margin-right: 10px;
+    }
+    .our-advantages-deli {
+        margin-right: 10px;
+    }
+    .our-advantages-qual {
+        margin-right: 10px;
+    }
+    .about-us-bottom-item {
+        width: 90px;
+    }
+    .our-advantages-menu {
+        flex-wrap: wrap;
+        max-width: 20%;
+    }
+    .about-us-bottom-text {
+        font: normal 16px Segoe UI;
+        width: 250px;
+    }
+    .about-us-bottom-item {
+        width: 120px;
+    }
+    .about-us-bottom-link {
+        width: 120px;
+    }
+    .catalog-goods-menu {
+        flex-wrap: wrap;
+        width: 75%;
+        height: 75%;
+    }
+    .catalog-goods-menu-items {
+        margin-bottom: 10px;
+    }
+    .our-consultants-menu {
+        flex-wrap: wrap;
+    }
+    .our-consultants-items {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .brands {
+        height: 250px;
+    }
+    .brands-menu {
+        flex-wrap: wrap;
+    }
+    .usefull-information-menu {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text-1 {
+        margin-right: 10px;
+    }
+    .features-of-hoverboards-menu-item {
+        margin-right: 10px;
+    }
+    .footer-bold-text-2 {
+        max-width: 130px;
+    }
+    .footer-text-2 {
+        max-width: 130px;
+    }
+}
+@media (max-width: 723px) {
+    .container {
+        margin: auto;
+        max-width: 600px;
+    }
+    .menu-text {
+        font: bold 18px Segoe UI;
+    }
+    .menu-item-text {
+        margin-left: 18px;
+        font: 10px Segoe UI;
+    }
+    .main {
+        padding-top: 5%;
+        padding-bottom: 38%;
+    }
+    .our-advantages-big {
+        margin-right: 10px;
+    }
+    .our-advantages-cons {
+        margin-right: 10px;
+    }
+    .our-advantages-deli {
+        margin-right: 10px;
+    }
+    .our-advantages-qual {
+        margin-right: 10px;
+    }
+    .about-us-bottom-item {
+        width: 90px;
+    }
+    .our-advantages-menu {
+        flex-wrap: wrap;
+        max-width: 20%;
+    }
+    .about-us-bottom-text {
+        font: normal 14px Segoe UI;
+        width: 220px;
+    }
+    .about-us-bottom-item {
+        width: 100px;
+    }
+    .about-us-bottom-link {
+        width: 120px;
+    }
+    .catalog-goods-menu {
+        flex-wrap: wrap;
+        width: 75%;
+        height: 75%;
+    }
+    .catalog-goods-menu-items {
+        margin-bottom: 10px;
+    }
+    .our-consultants-menu {
+        flex-wrap: wrap;
+    }
+    .our-consultants-items {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .brands {
+        height: 250px;
+    }
+    .brands-menu {
+        flex-wrap: wrap;
+    }
+    .usefull-information-menu {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text-1 {
+        margin-right: 2px;
+        margin-bottom: 60px;
+    }
+    .features-of-hoverboards-menu-item {
+        margin-right: 2px;
+    }
+    .footer-bold-text-2 {
+        max-width: 100px;
+    }
+    .footer-text-2 {
+        max-width: 100px;
+    }
+}
 
-@media (max-width: 431px) {
-    .container {
-        margin: auto;
-        max-width: 431px;
-    }
-    .menu-text {
-        font: bold 18px Segoe UI;
-    }
-    .menu-item-text {
-        margin-left: 18px;
-        font: 10px Segoe UI;
-    }
-    .main {
-        padding-top: auto;
-        padding-bottom: auto;
-    }
-    
-}
-@media (max-width: 391px) {
-    .container {
-        margin: auto;
-        max-width: 391px;
-    }
-    .menu-text {
-        font: bold 18px Segoe UI;
-    }
-    .menu-item-text {
-        margin-left: 18px;
-        font: 10px Segoe UI;
-    }
-    .main {
-        padding-top: auto;
-        padding-bottom: auto;
-    }
-    
-}
