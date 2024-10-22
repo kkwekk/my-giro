@@ -141,4 +141,169 @@ body {
     transition: 0.1s;
     background: rgb(206, 206, 206);
 }
+.our-advantages {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-advantages-arrows {
+    list-style-type: none;
+    display: flex;
+}
+
+.our-advantages-menu {
+    list-style-type: none;
+    display: flex;
+    margin-top: 164px;
+}
+
+.our-advantages-qual {
+    margin-right: 131px;
+}
+
+.our-advantages-deli {
+    margin-right: 139px;
+}
+
+.our-advantages-big {
+    margin-right: 91px;
+}
+.our-advantages-char {
+    max-width: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-advantages-image {
+    margin-bottom: 67px;
+}
+
+.our-advantages-text {
+    font: lighter 20px Segoe UI;
+    width: 194px;
+    text-align: center;
+    margin-bottom: 124px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-text {
+    margin-top: 54px;
+    font: lighter 20px Segoe UI;
+    margin-bottom: 34px;
+}
+
+.about-us-text:last-child {
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.about-us-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-us-bottom-background {
+    background: #ffa019;
+    width: 100%;
+    height: 94px;
+}
+
+.about-us-bottom {
+    display: flex;
+    flex-direction: row;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    justify-content: space-between;
+}
+
+.about-us-bottom-text {
+    font: normal 18px Segoe UI;
+    text-align: left;
+    color: white;
+    width: 275px;
+    height: 48px;
+    text-align: justify;
+}
+
+.about-us-bottom-item {
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 48px;
+    margin-right: 16px;
+    border: 1px solid white;
+}
+
+.about-us-bottom-item:hover {
+    transition: 0.1s;
+    background-color: #ffffff17;
+}
+
+.about-us-bottom-link {
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 48px;
+    margin-right: 16px;
+    background: white;
+}
+
+.about-us-bottom-link:hover {
+    transition: 0.1s;
+    background: rgb(228, 228, 228);
+}
+
+.about-us-bottom-item-text {
+    margin-left: 31px;
+    font: 14px Segoe UI;
+    color: white;
+}
+
+.about-us-bottom-link-text {
+    margin-left: auto;
+    margin-right: auto;
+    font: bold 14px Segoe UI;
+    color: black;
+}
+
+.features-of-hoverboards {
+    padding-top: 65px;
+    padding-bottom: 66px;
+}
+
+.features-of-hoverboards-header {
+    font: lighter 34px Segoe UI;
+}
+
+.features-of-hoverboards-menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features-of-hoverboards-menu-item {
+    width: 352px;
+    font: lighter 20px Segoe UI;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 36px;
+    padding-top: 51px;
+    padding-bottom: 56px;
+}
+
+.features-of-hoverboards-text {
+    font: lighter 19.9px Segoe UI;
+    text-align: justify;
+}
 
