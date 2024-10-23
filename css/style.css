@@ -736,10 +736,10 @@ body {
         margin-right: 10px;
     }
 }
-@media (max-width: 826px) {
+@media (max-width: 826%) {
     .container {
         margin: auto;
-        max-width: 690px;
+        max-width: 690%;
     }
     .menu-text {
         font: bold 20px Segoe UI;
@@ -820,10 +820,10 @@ body {
         max-width: 130px;
     }
 }
-@media (max-width: 723px) {
+@media (max-width: 723%) {
     .container {
         margin: auto;
-        max-width: 600px;
+        max-width: 600%;
     }
     .menu-text {
         font: bold 18px Segoe UI;
