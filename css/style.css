@@ -905,4 +905,42 @@ body {
         max-width: 100px;
     }
 }
-
+@media (max-width:431px) {
+    .header span {
+        font-size: 8px;
+    }
+    .menu {
+        padding-top: 20px;
+    }
+    .header-button {
+        width: 90px;
+        height: 20px;
+    }
+    .main-header-text-2  {
+        max-width: 260px;
+        font-size: 8px;
+        padding-bottom: 5px;
+        padding-top: 1px;
+    }
+    .our-advantages-menu {
+        font-size: 10px;
+    }
+    .button {
+        width: 60px;
+        font-size: 8px;
+        height: 20px;
+    }
+    .about-us-bottom-text {
+        padding-top: 5px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:361px) {
+    .footer-text-1 {
+        max-width: 70px;
+        font-size: 8px;
+    }
+    .header span {
+        font-size:7px;
+    }
+}
